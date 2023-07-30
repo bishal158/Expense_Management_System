@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(236, 235, 235);
+}
+form{
+    margin: 10px;
+}
+p{
+    width: 50%;
+    margin: 15px auto;
+    color: white;
+}
+.registration{
+    border: 1px solid black;
+    width: 70%;
+    height: 100vh;
+    background-color:rgb(34, 43, 72);
+    margin: 15px auto;
+    padding: 15px;
+}
+.registration:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.registration h1{
+    text-align: center;
+    color: white;
+}
+.form-floating{
+    width: 50%;
+    margin: 15px auto;
+}
+.form-floating input{
+    width: 100%;
+}
+.input-group{
+    width: 50%;
+    margin: 15px auto;
+}

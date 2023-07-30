@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 235, 235);
+}
+
+.FlexContainer{
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-content: stretch;
+    height: 100vh;
+    width: 100vw;
+    gap: 5px;
+    border-radius: 30px;
+}
+.FlexContainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.left{
+    background-color: rgb(199, 196, 221);
+    width:  40vw;
+    text-align: center;
+    height: 100%;
+    display:inline-block;
+}
+.right{
+    background-color: rgb(34, 43, 72);
+    width: 60vw;
+    height: 100%;
+    display: inline-block;
+}
+.logo img{
+    width: 40%;
+    margin-left: 200px;
+    border-radius: 50px;
+}
+
+.form-floating{
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+
+.input-field{
+    padding: 50px;
+    padding-left: 40px;
+    align-items: center;
+    margin: 10px;
+}
+.text{
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 260px;
+}
+
+form{
+    margin: 40px;
+}
+.btn{
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 50px;
+    height: 50px;
+}
+p{
+    width: 60%;
+    padding: 10px;
+    margin: 15px auto;
+    color: white;
+}
+
+.text h3{
+    color: rgb(6, 70, 6);
+}
+.d-flex a{
+    text-decoration: none;
+    color: black;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 60%;
+    padding: 15px;
+    margin: 30px;
+}
+.d-flex a:hover{
+    background-color: rgb(101, 187, 204);
+    transform: scale(1.5);
+}
+
+.d-flex a i{
+    font-size: 25px;
+}
